@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang='en'>
+{{ $vue := . }}
+    <head>
+        <meta charset='utf-8'>
+        <title>Go Vite</title>
+        
+        {{ if $vue }}
+          {{ $vue.RenderTags }}
+        {{ end }}
+        
+    </head>
+    <body>
+      <div id="root"></div>
+      
+    </body>
+  </html>
+      
+ 
